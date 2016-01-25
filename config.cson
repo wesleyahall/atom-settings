@@ -1,0 +1,36 @@
+"*":
+  core: {}
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 10
+    invisibles: {}
+    backUpBeforeSaving: true
+    fontFamily: "Source Code Pro"
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "884f5409-b75e-9582-fc4e-e6a57e4f1f66"
+  tabs:
+    enableVcsColoring: true
+    usePreviewTabs: true
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  linter: {}
+  "linter-scss-lint":
+    executablePath: '/usr/local/bin/scss-lint'
+  jsonlint:
+    hideOnNoErrors: true
+  'standard-formatter':
+    formatOnSave: false
+    style: "semi-standard"
+  "tree-view":
+    hideIgnoredNames: true
+    showOnRightSide: true
+    sortFoldersBeforeFiles: true

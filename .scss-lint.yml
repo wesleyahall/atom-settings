@@ -1,0 +1,11 @@
+scss_files: 'app/assets/stylesheets/**/*.scss'
+exclude: 'app/assets/stylesheets/lib/**/*'
+linters:
+  ImportantRule:
+    enabled: false
+  IdSelector:
+    enabled: false
+  ColorVariable:
+    enabled: false
+  LeadingZero:
+    enabled: false
