@@ -1,5 +1,6 @@
 "*":
   core:
+    projectHome: "/proj"
     themes: [
       "atom-dark-ui"
       "monokai"
@@ -27,7 +28,6 @@
     usePreviewTabs: true
   "tree-view":
     hideIgnoredNames: true
-    showOnRightSide: true
     sortFoldersBeforeFiles: true
   welcome:
     showOnStartup: false

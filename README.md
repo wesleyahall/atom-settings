@@ -26,7 +26,9 @@ gem install scss-lint
 ```
 apm install Sublime-Style-Column-Selection csscomb cssnano language-babel language-ejs language-javascript-jsx language-twig linter linter-js-standard linter-sass-lint linter-jsonlint linter-tidy monokai standard-formatter tabs-to-spaces tree-view-git-modified
 ```
-5. Copy included config.cson over ~/.atom/config.cson
+5. Copy included config.cson over ~/.atom/config.cson, replacing paths with correct ones:
+  `which scss-lint` gets scss-lint path, etc.
+
 6. Place various . files (.scss-lint.yml, .csscomb.json, etc) at root of project.
 
 > Packages Installed:
