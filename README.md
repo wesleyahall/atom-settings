@@ -16,7 +16,7 @@ rm ~/Library/Caches/Atom
 
 1. Install linters:
 ```
-npm i -g semistandard
+npm i -g standard
 gem install scss-lint
 ```
 
@@ -24,12 +24,14 @@ gem install scss-lint
 3. Atom > Install Shell Commands
 4. Install plugins
 ```
-apm install Sublime-Style-Column-Selection csscomb cssnano language-babel language-ejs language-javascript-jsx language-twig linter linter-js-standard linter-scss-lint linter-jsonlint linter-tidy monokai standard-formatter tabs-to-spaces tree-view-git-modified
+apm install Sublime-Style-Column-Selection Stylus atom-beautify atom-pair csscomb cssnano formatter formatter-tidy git-time-machine language-babel language-ejs language-twig language-javascript-jsx linter linter-eslint linter-jsonlint linter-stylint linter-scss-lint linter-js-standard linter-tidy monokai npm-install perfectionist pigments seti-ui sort-lines standard-formatter tabs-to-spaces tree-view-git-modified
 ```
 5. Copy included config.cson over ~/.atom/config.cson, replacing paths with correct ones:
   `which scss-lint` gets scss-lint path, etc.
 
 6. Place various . files (.scss-lint.yml, .csscomb.json, etc) at root of project.
+
+7. Install Fonts if necessary
 
 > Packages Installed:
 - Stylus@3.1.0
