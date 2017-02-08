@@ -1,14 +1,29 @@
 "*":
+  "atom-beautify":
+    ejs:
+      indent_size: 2
+    general:
+      _analyticsUserId: "15b01ebc-56e8-47c5-ae0d-e1fbd4279fdb"
+    html:
+      default_beautifier: "Pretty Diff"
+      indent_size: 2
+  "atom-pair":
+    slack_url: "https://hooks.slack.com/services/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"
   core:
+    disabledPackages: [
+      "atom-htmltidy"
+      "linter-js-standard"
+      "formatter-tidy"
+    ]
     projectHome: "/proj"
+    telemetryConsent: "limited"
     themes: [
-      "atom-dark-ui"
+      "seti-ui"
       "monokai"
     ]
   editor:
     backUpBeforeSaving: true
-    fontFamily: "Source Code Pro"
-    fontSize: 12
+    fontFamily: "Fira Code"
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -20,14 +35,27 @@
   linter: {}
   "linter-scss-lint":
     executablePath: "/usr/local/bin/scss-lint"
+  perfectionist:
+    formatOnSave: true
+    indentSize: 2
+  "seti-ui":
+    compactView: true
+    font: "Default Atom Font"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   "standard-formatter":
     formatOnSave: false
-    style: "semi-standard"
+    style: "standard"
   tabs:
     enableVcsColoring: true
     usePreviewTabs: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
     sortFoldersBeforeFiles: true
   welcome:
     showOnStartup: false
